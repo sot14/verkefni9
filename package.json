@@ -4,7 +4,7 @@
   "description": "verkefni 9",
   "main": "index.js",
   "scripts": {
-    "test": "",
+    "test": "eslint *.js **/*.js",
     "dev": "browser-sync start --server --files index.html styles.css scripts.js"
   },
   "keywords": [],
